@@ -1,0 +1,3 @@
+allow storaged sysfs:file read;
+allow storaged object_r:sysfs:file open;
+allow storaged object_r:sysfs:file getattr;
