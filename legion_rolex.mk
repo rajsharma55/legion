@@ -26,6 +26,9 @@ $(call inherit-product, vendor/legion/config/common.mk)
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+#Legion Official
+LEGION_BUILD_TYPE=OFFICIAL
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
